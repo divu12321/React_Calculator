@@ -1,6 +1,6 @@
-.App {
+/*.App {
   text-align: center;
-}
+}*/
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,83 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header{
+  margin: auto;
+  margin-top: 20px;
+  width: 302px;
+  padding: 1px;
+  box-sizing: border-box;
+  background: linear-gradient(#b13bea, #9198e5);
+  box-shadow: 0 0 0 1px #eee;
+  text-align: center;
+}
+
+.header p {
+  color: #fff;
+}
+
+.container {
+  margin: auto;
+  width: 302px;
+  height: 462px;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #b13bea;
+  margin-bottom: 5%;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  margin-top: 2%;
+}
+
+.calculator {
+  margin: auto;
+  width: 302px;
+  height: 462px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  box-shadow: 0 0 0 1px #eee;
+}
+
+.alignBtn {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+.btnStyle{
+  box-sizing: border-box;
+  background: linear-gradient(#b13bea, #9198e5);
+  color: #fff;
+  height: 50px;
+  width: 55px;
+  font-size: 10px;
+  align-items: center;
+}
+
+span {
+  display: block;
+}
+
+.text{
+  color: #8e8686;
 }
